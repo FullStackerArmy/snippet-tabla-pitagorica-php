@@ -17,8 +17,8 @@
         $result = $row;
       }
 
-      if ($column > 0) {
-        $result = $column * $row;
+      if ($column >= 1) {
+        $result = $row * $column;
       }
     ?>
     <td><?php echo $result; ?></td>
